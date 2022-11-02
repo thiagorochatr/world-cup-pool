@@ -1,13 +1,20 @@
 # world-cup-pool
 
 ## Tools used:
-- Fastify (backend)
+#### Backend
+- Fastify
 - Prisma
 - SQLite
 - Mermaid.js
 - Prisma ERD Generator
 - Fastify Cors
-- Next.js (frontend)
-- React Native (mobile)
+- Schema validation -> Zod
+- Short Unique ID
+
+#### Frontend
+- Next.js
+
+#### Mobile
+- React Native
 - Expo
 - Native Base
