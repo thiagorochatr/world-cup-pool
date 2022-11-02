@@ -13,6 +13,8 @@
 
 #### Frontend
 - Next.js
+- Tailwind
+- Axios
 
 #### Mobile
 - React Native
