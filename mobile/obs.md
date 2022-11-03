@@ -1,1 +1,0 @@
-# Preciso passar os themes das cores para o código, colar no arquivo src/styles/theme.ts
