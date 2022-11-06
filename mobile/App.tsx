@@ -4,7 +4,7 @@ import { useFonts, Roboto_400Regular, Roboto_500Medium, Roboto_700Bold } from '@
 import { NativeBaseProvider, StatusBar } from "native-base";
 
 import { Loading } from './src/components/Loading';
-import { Pools } from './src/screens/Pools';
+import { Routes } from './src/routes';
 
 import { AuthContextProvider } from './src/contexts/AuthContext';
 
@@ -21,7 +21,7 @@ export default function App() {
           translucent
           />
         
-        { fontsLoaded ? <Pools /> : <Loading /> }
+        { fontsLoaded ? <Routes /> : <Loading /> }
       </AuthContextProvider>
     </NativeBaseProvider>
   );

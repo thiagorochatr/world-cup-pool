@@ -10,6 +10,7 @@
 - Fastify Cors
 - Schema validation -> Zod
 - Short Unique ID
+- JWT
 
 #### Frontend
 - Next.js
@@ -22,5 +23,5 @@
 - Native Base
 - SVG Transformer
 - Phosphor-react-native
-
-1:38:05
+- Axios
+- React Navigation
