@@ -3,9 +3,21 @@ import { Button } from '../components/Button'
 import { Header } from '../components/Header'
 import { Octicons } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
+import { api } from '../services/api'
 
 export function Pools() {
   const { navigate } = useNavigation();
+
+  async function fetchPools() {
+    try {
+      const response = await api.get('/pools');
+      // Continuar em 23:20
+    } catch (err) {
+
+    } finally {
+
+    }
+  }
 
   return (
     <VStack flex={1} bgColor='gray.900'>
