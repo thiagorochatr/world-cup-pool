@@ -1,5 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: 'http://192.168.1.83:3333'
+  // VERIFICAR O ENDEREÇO IP PELO NPX EXPO START
+  baseURL: 'http://192.168.0.20:3333'
 })
